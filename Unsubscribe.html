@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Daily Digest</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+      background: white;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    }
+    .email-container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #f8fafc;
+      border-radius: 16px;
+      box-shadow: 0 32px 64px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(20px);
+      padding-bottom: 30px;
+    }
+    .header-section {
+      padding: 40px 30px 0;
+      text-align: center;
+    }
+    .logo {
+      max-width: 120px;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+    .main-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #003b5c;
+      margin: 0 0 14px;
+    }
+    
+    .content-section {
+      padding: 0px 30px;
+      color: #374151;
+      font-size: 14px;
+      line-height: 1.6;
+      text-align: center;
+    }
+    form {
+      margin-top: 20px;
+      text-align: left;
+    }
+    label {
+      display: block;
+      margin: 12px 0 6px;
+      font-weight: 500;
+    }
+    input[type="text"],
+    input[type="email"] {
+      width: 90%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      background: #f9fafb;
+    }
+    input[type="submit"] {
+  display: block;
+  margin: 20px auto 0;  
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #003b5c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 60%; 
+}
+    input[type="submit"]:hover {
+      background-color: #4338ca;
+    }
+    .footer-section {
+      background: #f8fafc;
+      padding: 10px;
+      text-align: center;
+      border-top: 1px solid #64748b;
+    }
+    .footer-links {
+      margin-bottom: 16px;
+    }
+    .footer-link {
+      color: #4f46e5;
+      margin: 0 8px;
+      text-decoration: none;
+      font-size: 13px;
+    }
+    .footer-link:hover {
+      text-decoration: underline;
+    }
+    .footer-separator {
+      color: #4f46e5;
+      margin: 0 6px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .footer-text {
+      color: #64748b;
+      font-size: 13px;
+      margin: 0 0 16px;
+      line-height: 1.5;
+    }
+    .social-links {
+      margin-top: 12px;
+    }
+    .social-link {
+      display: inline-block;
+      margin: 0 12px;
+      color: #64748b;
+      text-decoration: none;
+      font-size: 13px;
+    }
+    .social-link:hover {
+      color: #4f46e5;
+      text-decoration: underline;
+    }
+    .copyright-notice {
+      font-size: 10px;
+      color: #64748b;
+      line-height: 1.6;
+      text-align: center;
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid #e2e8f0;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header-section">
+      <img src="https://lh6.googleusercontent.com/qmz1WY5D7ZFxFeXy1nXLXLhBG60CnN7NhewVmPvLZRTDPUJ7dtwObiefKBTef41nymmMX2q1ceAcPbjpPiZZbK2r7biS4pgTocQnYmEoZPfeadrBtoTTATQBvZfSms3b576sxJtpBsqo1DdqpoZbtkY"
+           alt="Thin Air Labs Logo"
+           class="logo">
+      <h1 class="main-title">Sad to see you go 😔</h1>
+    </div>
+
+    <div class="content-section">
+      <p>Enter your email to unsubscribe.</p>
+
+      <!-- ✅ Unsubscribe form with JS handling -->
+      <form id="unsubscribe-form">
+        <label for="email">Email <span style="color:red">*</span></label>
+        <input type="email" name="email" id="email" required />
+        <br>
+        <input type="submit" value="Unsubscribe" />
+        <br>
+      </form>
+    </div>
+
+    <div class="footer-section">
+      
+      <p class="footer-text">  
+        Thin Air Labs is a Canadian venture capital and services firm.
+        <br><br>
+        <a href="https://www.thinairlabs.ca/venture-capital/fund-1" class="footer-link"><u>Interested in raising Venture Capital?</u></a><br><br>
+        <a href="https://www.thinairlabs.ca/venture-capital/fund-1" class="footer-link"><u>Want to invest in our fund?</u></a><br><br>
+        <a href="https://www.thinairlabs.ca/services/funding-catalyst" class="footer-link"><u>Need support raising non-dilutive funding?</u></a><br><br>
+        Interested in podcasts? <a href="https://linktr.ee/thinairlabspodcast" class="footer-link"><u>Check out ours!</u></a>
+      </p>
+
+      <div class="social-links">
+        <a href="https://www.thinairlabs.ca" class="social-link" target="_blank">
+          <img src="https://img.icons8.com/ios/50/domain--v1.png" alt="domain--v1" width="20" height="20" style="vertical-align: middle;">
+        </a>
+        <a href="https://x.com/thinair_labs" class="social-link" target="_blank">
+          <img src="https://img.icons8.com/ios/50/twitterx--v2.png" alt="twitterx--v2" width="20" height="20" style="vertical-align: middle;">
+        </a>
+        <a href="https://www.linkedin.com/company/thin-air-labs/" class="social-link" target="_blank">
+          <img src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="LinkedIn" width="20" height="20" style="vertical-align: middle;">
+        </a>
+      </div>
+
+      <div class="copyright-notice">
+        © 2025 Thin Air Labs <br>
+        Suite 202 838-11th Avenue SW, Calgary, AB, T2R 0E5, Canada
+      </div>
+    </div>
+  </div>
+
+<!-- ✅ JS to handle the form without redirect -->
+  <script>
+    document.getElementById('unsubscribe-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const form = e.target;
+      const formData = new FormData(form);
+
+      fetch('https://anshdhawan.app.n8n.cloud/webhook/92e72266-759d-4ad0-836c-5aeb15827aa0', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => {
+        if (response.ok) {
+          alert('You have been unsubscribed successfully.');
+          form.reset();
+        } else {
+          alert('Oops! Something went wrong. Please try again.');
+        }
+      })
+      .catch(() => {
+        alert('Network error. Please try again later.');
+      });
+    });
+  </script>
+</body>
+</html>
